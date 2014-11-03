@@ -21,25 +21,25 @@
 
       <dependency>
           <groupId>org.springframework</groupId>
-          <artifactId>spring-web</artifactId>
-          <version>${spring.version}</version>
-      </dependency>
-
-      <dependency>
-          <groupId>org.springframework</groupId>
           <artifactId>spring-webmvc</artifactId>
           <version>${spring.version}</version>
       </dependency>
 
       <dependency>
           <groupId>org.springframework</groupId>
-          <artifactId>spring-core</artifactId>
+          <artifactId>spring-web</artifactId>
           <version>${spring.version}</version>
       </dependency>
 
       <dependency>
           <groupId>org.springframework</groupId>
-          <artifactId>spring-web</artifactId>
+          <artifactId>spring-context</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context-support</artifactId>
           <version>${spring.version}</version>
       </dependency>
 
@@ -47,6 +47,12 @@
           <groupId>org.springframework.data</groupId>
           <artifactId>spring-data-jpa</artifactId>
           <version>1.2.0.RELEASE</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-test</artifactId>
+          <version>${spring.version}</version>
       </dependency>
 
       <dependency>
@@ -83,9 +89,15 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
+
+      <dependency>
+          <groupId>org.aspectj</groupId>
+          <artifactId>aspectjweaver</artifactId>
+          <version>1.7.4</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>AccountService</finalName>

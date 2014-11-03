@@ -3,10 +3,12 @@ package com.tofibashers.service;
 import com.tofibashers.dao.AmountDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
+import org.springframework.stereotype.Service;
 
 /**
  * Created by TofixXx on 26.09.2014.
  */
+@Service
 public class AccountServiceImpl implements AccountService{
 
     @Autowired

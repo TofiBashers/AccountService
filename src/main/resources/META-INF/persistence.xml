@@ -11,7 +11,6 @@
             <property name="hibernate.connection.username" value="root" />
             <property name="hibernate.connection.password" value="relapse" />
             <property name="hibernate.hbm2ddl.auto" value="create" />
-            <property name="hibernate.show_sql" value="true" />
         </properties>
     </persistence-unit>
 </persistence>
